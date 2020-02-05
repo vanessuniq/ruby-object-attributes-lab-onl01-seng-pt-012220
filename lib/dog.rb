@@ -14,5 +14,9 @@ class Dog
   def breed= (breed)
     @my_breed = breed
   end
+  
+  def breed 
+    @my_breed
+  end
     
 end 
